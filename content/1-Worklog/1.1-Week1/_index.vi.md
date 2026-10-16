@@ -5,55 +5,63 @@ weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm quen với môi trường thực tập và chương trình AWS Study Group.
+* Tìm hiểu Cloud Computing và các dịch vụ AWS cơ bản.
+* Làm quen với AWS Management Console.
+* Tìm hiểu bảo mật tài khoản, IAM và quản lý chi phí AWS.
+* Tham gia các hoạt động học tập và sự kiện công nghệ.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+
+### Các công việc thực hiện trong tuần
+
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 1 | **Tổng quan về AWS và Cloud Computing** <br> - Bắt đầu quá trình thực tập và làm quen với môi trường làm việc. <br> - Tìm hiểu Cloud Computing và các nhóm dịch vụ AWS. <br> - Làm quen với lộ trình AWS Study Group. | 21/09/2026 | 21/09/2026 | [AWS Study Group](https://cloudjourney.awsstudygroup.com/) |
+| 2 | **AWS Management Console** <br> - Tìm hiểu hệ sinh thái AWS. <br> - Làm quen với giao diện AWS Console, cách tìm kiếm dịch vụ, kiểm tra tài khoản và quản lý tài nguyên. <br> - Xem video hướng dẫn cơ bản. | 22/09/2026 | 22/09/2026 | [AWS Console](https://aws.amazon.com/console/) |
+| 3 | **AWS Account & Security** <br> - Tìm hiểu cách tạo tài khoản AWS. <br> - Nghiên cứu thiết lập Virtual MFA. <br> - Tìm hiểu các phương thức bảo vệ tài khoản và ngăn chặn truy cập trái phép. | 23/09/2026 | 23/09/2026 | [AWS IAM](https://docs.aws.amazon.com/iam/) |
+| 4 | **AWS Identity and Access Management** <br> - Tìm hiểu IAM User, Group, Role và Policy. <br> - Nghiên cứu cách cấp và quản lý quyền truy cập. <br> - Xem hướng dẫn tạo Admin Group. | 24/09/2026 | 24/09/2026 | [IAM Documentation](https://docs.aws.amazon.com/iam/) |
+| 5 | **AWS Billing & Cost Management** <br> - Tìm hiểu cách kiểm soát chi phí AWS. <br> - Nghiên cứu AWS Budgets, cảnh báo ngân sách và AWS Credits. <br> - Ghi chú cách tránh phát sinh chi phí không cần thiết. | 25/09/2026 | 25/09/2026 | [AWS Billing](https://docs.aws.amazon.com/awsaccountbilling/) |
+| 6 | **Sự kiện BUILDRATHON KICKOFF: CODE THE FUTURE WITH CMC GLOBAL** <br> - Tham gia chương trình về công nghệ và phát triển sản phẩm. <br> - Tìm hiểu hoạt động lập trình và đổi mới sáng tạo. <br> - Ghi nhận kiến thức phục vụ quá trình học tập và thực tập. | 26/09/2026 | 26/09/2026 | Sự kiện BUILDRATHON KICKOFF |
+
+
 
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
+* Nắm được kiến thức tổng quan về **Cloud Computing** và **Amazon Web Services (AWS)**, bao gồm các nhóm dịch vụ cơ bản:
   * Compute
   * Storage
-  * Networking 
+  * Networking
   * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Làm quen với **AWS Management Console** và hiểu cách:
+  * Tìm kiếm, truy cập các dịch vụ AWS.
+  * Kiểm tra thông tin tài khoản.
+  * Theo dõi và quản lý tài nguyên trên AWS.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Hiểu được các nguyên tắc cơ bản về **AWS Account Security**:
+  * Vai trò của Multi-Factor Authentication (MFA).
+  * Các phương thức bảo vệ tài khoản AWS.
+  * Tầm quan trọng của việc hạn chế truy cập trái phép.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Nắm được những khái niệm nền tảng về **AWS Identity and Access Management (IAM)**:
+  * Phân biệt IAM User, Group, Role và Policy.
+  * Hiểu cách quản lý danh tính và phân quyền truy cập.
+  * Tìm hiểu quy trình tạo Admin Group và cấp quyền cho người dùng.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Có kiến thức cơ bản về **AWS Billing & Cost Management**:
+  * Tìm hiểu cách thiết lập AWS Budgets.
+  * Hiểu cách theo dõi chi phí và sử dụng Billing Alerts.
+  * Nắm được các lưu ý khi sử dụng AWS Credits để hạn chế chi phí không cần thiết.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Tham gia sự kiện **BUILDRATHON KICKOFF: CODE THE FUTURE WITH CMC GLOBAL**:
+  * Tiếp cận thêm các hoạt động liên quan đến lập trình và phát triển sản phẩm.
+  * Tìm hiểu về môi trường công nghệ và đổi mới sáng tạo.
+  * Ghi nhận những kiến thức bổ ích phục vụ quá trình học tập và thực tập.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hoàn thành việc tìm hiểu các nội dung nền tảng trong tuần đầu tiên, tạo cơ sở để tiếp tục học tập và thực hành những dịch vụ AWS trong các tuần tiếp theo.
 
 
